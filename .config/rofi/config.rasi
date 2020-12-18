@@ -1,0 +1,9 @@
+configuration {
+	modi: "window,run,ssh";
+	font: "Lucida Gr 18";
+	padding: 400;
+	hide-scrollbar: true;
+	fullscreen: true;
+	color-normal: "argb:EE32302f, #ebdbb2, argb:EE32302f, #32302f, #d79921";
+	color-window: "argb:EE32302f, argb:EE32302f, argb:EE32302f";
+}
