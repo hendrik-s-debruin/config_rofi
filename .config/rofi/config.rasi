@@ -152,6 +152,7 @@ configuration {
 * {
     background:                  rgb(50, 48, 47, 85%);
     red:                         rgba ( 220, 50, 47, 100 % );
+    yellow:                      #d79921;
     selected-active-foreground:  var(background);
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     separatorcolor:              var(foreground);
@@ -167,11 +168,11 @@ configuration {
     blue:                        rgba ( 38, 139, 210, 100 % );
     alternate-normal-foreground: var(foreground);
     urgent-background:           var(background);
-    selected-normal-foreground:  var(lightbg);
+    selected-normal-foreground:  var(yellow);
     active-foreground:           var(blue);
     selected-active-background:  var(blue);
     active-background:           var(background);
-    selected-normal-background:  var(lightfg);
+    selected-normal-background:  var(normal-background);
     alternate-normal-background: var(lightbg);
     /* foreground:                  rgba ( 0, 43, 54, 100 % ); */
     foreground:                  #ebdbb2;
